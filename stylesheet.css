@@ -1,0 +1,110 @@
+body{
+
+background-color:#9c9f84;
+margin:0px;
+font-family: verdana, georgia, arial;
+font-size: 14px;
+
+}
+
+#header {
+background-color:green;
+margin:10px;
+height: 90px;
+border-radius: 2px;
+}
+
+#navbar ul{
+padding:5px;
+list-style-type:none;
+margin:10px;
+border-radius:5px;
+background-color: white;
+text-align: center;
+}
+
+
+#navbar ul li {
+display: inline;
+}
+
+#navbar ul li a {
+text-decoration: none;
+padding: .2em 1em;
+color:red;
+
+}
+#navbar ul li a:hover {
+
+color:pink;
+
+}
+.main {
+background-color:white;
+margin-left:10px;
+margin-right:320px;
+margin-top:10px;
+margin-bottom:10px;
+padding:20px;
+border-radius: 1.5px;
+font-size: 110%;
+}
+h1, h2{
+font-size:120%;
+color: pink;
+
+}
+h3{
+font-size:320%;
+color: white;
+text-align:center;
+position:relative;
+top:50%;
+-webkit-transform:traslateY(-50%);
+-ms-transform:translateY(-50%);
+transform:translateY(-50%);
+
+}
+
+.sideber
+{ 
+background-color:white;
+margin-left:10px;
+margin-right:10px;
+margin-top:0px;
+margin-bottom:10px;
+padding:20px;
+border-radius:5px;
+font-size: 110%;
+float:right;
+width:260px;
+
+}
+
+.image
+{ 
+background-color:white;
+margin-left:10px;
+margin-right:10px;
+margin-top:0px;
+margin-bottom:10px;
+border-radius:5px;
+float:right;
+width:300px;
+clear:right;
+opacity:1.0;
+transition:opacity 1s ease-in-out;
+
+}
+.image:hover{
+opacity:0.4;
+}
+
+#footer {
+background-color:green;
+margin:10px;
+height: 90px;
+border-radius: 2px;
+clear:both;
+
+}
